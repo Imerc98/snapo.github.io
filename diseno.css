@@ -1,0 +1,172 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+     background-color: #f0f0f0; 
+}
+/* Small screens */
+@media (min-width: 1440px) {
+    /* Adjust the overall layout for desktop view */
+   
+    }
+
+.navbar {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center; /* Vertically align items */
+    padding: 10px;
+    transition: background-color 0.3s; /* Add a transition for smooth color change */
+    background-color: #f0f0f0;
+}
+
+.navbar .logo {
+    margin-right: 20px; /* Add some spacing between the logo and navbar items */
+    padding: 15px; /* Adjust padding as needed */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 1;
+    padding: 0;
+    display: flex; /* Display navbar items horizontally */
+}
+
+.navbar-left {
+    /* Remove float and make it a flex container */
+    display: flex;
+    margin-top: -10px;
+    margin-left: 40px;
+}
+
+.navbar-right {
+    /* Remove float and make it a flex container */
+    display: flex;
+    margin-top: -10px;
+    margin-left: auto;
+    padding: 1em;
+    
+}
+
+
+.navbar ul li {
+    margin-right: 33px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #727171;
+    font-size: 15px; 
+    font-family: 'Epilogue', sans-serif;
+ 
+    
+
+}
+.navbar ul li a:hover {
+    color: #000000; /* Change text color to white on hover */
+    background: rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid transparent; /* Use a transparent solid border on hover */
+    border-radius: 50%; /* Add border-radius to make it circular */
+    
+
+}
+.dropdown-content {
+    display: none;
+   
+    
+    position: absolute;
+    border: 1px solid #ccc; /* Agrega un borde */
+    border-radius: 10px; /* Bordes circulares */
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    min-width: 160px;
+    
+    top:50px; /* Ajusta el valor de top para mover el dropdown hacia abajo */
+    text-align: center; /* Center align the text */
+    z-index: 1; 
+    
+
+}
+
+.dropdown-content a {
+    padding: 3px 6px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin: 3px auto; /* Center items vertically by using auto margins */
+    align-items: center; /* Center items horizontally */
+}
+
+
+/* Add margin-right to the icons for spacing */
+.dropdown-content svg {
+    margin-right: 8px;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+    
+
+}
+
+  
+  /* Make the h2 bigger and adjust the alignment */
+  .centro h2 {
+    font-size: 80px; /* Adjust the font size as needed */
+     /* Center the text horizontally */
+    display: flex;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 170px;
+  }
+.centro p{
+    color: #585656;
+    font-family: 'Epilogue', sans-serif;
+   
+    margin-top: -20px;
+    margin-left: 170px;
+    line-height: 0.8;
+}
+
+.button {
+    background-color: #000000; /* Black background */
+    border: none;
+    color: white; /* White text */
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding: 10px 24px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   margin-top: 20px;
+    margin-left: 170px;
+  }
+  
+  .button:hover {
+    background-color: #555555; /* Add a hover effect (gray color) */
+  }
+    
+    
+  .svg-container {
+    display: flex; /* Display the SVGs in a horizontal line */
+    gap: 50px; /* Adjust the gap/space between the SVGs as needed */
+    margin-top: 130px;
+    margin-left: 190px;
+
+
+  }
+  img {
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto; /* Center the image horizontally */
+    text-align: center; /* Center the image text */
+    float: left; /* Float the image to the left */
+    margin-top: -500px;
+    margin-left:120px;
+    max-width: 100%;
+    height: auto;
+  }  
+ 
